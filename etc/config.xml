@@ -4,7 +4,13 @@
     <default>
         <payment>
             <codiluck_authorizenet>
-                <title>Authorize.NET Payment</title>
+                <title>CodiLuck Authorize.NET Payment</title>
+                <model>CodiLuckAuthorizenetFacade</model>
+                <active>1</active>
+                <is_gateway>1</is_gateway>
+                <can_use_checkout>1</can_use_checkout>
+                <can_authorize>1</can_authorize>
+                <cctypes>VI,MC</cctypes>
             </codiluck_authorizenet>
         </payment>
     </default>
